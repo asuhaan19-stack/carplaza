@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Car Plaza - Premium custom automotive styling, accessories, and bespoke upholstery upgrades. Family-owned precision craftsmanship since 2003.">
+  <title>Car Plaza | Bespoke Car Accessories & Custom Styling Studio</title>
+  
+  <!-- Google Fonts - Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Local Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- --- Header / Navbar --- -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo">
+        <!-- Sleek Sports Car Shield SVG Logo -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <!-- Car silhouette inside a shield border -->
+          <path d="M12 2L3 6v6c0 5.25 3.85 10.14 9 11 5.15-.86 9-5.75 9-11V6l-9-4zm5.5 13h-11c-.3 0-.5-.2-.5-.5v-1c0-.4.3-.8.7-.9l1.8-.4c.3-.1.5-.3.6-.6l.7-1.5c.2-.4.6-.6 1-.6h3.6c.4 0 .8.2 1 .6l.7 1.5c.1.3.3.5.6.6l1.8.4c.4.1.7.5.7.9v1c0 .3-.2.5-.5.5z" />
+          <circle cx="8.5" cy="14.5" r="1.25" fill="#dc2626" />
+          <circle cx="15.5" cy="14.5" r="1.25" fill="#dc2626" />
+        </svg>
+        Car<span>Plaza</span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-secondary" style="padding: 0.6rem 1.25rem; font-size: 0.9rem;">Book a Slot</a>
+      </div>
+      
+      <button class="hamburger" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- --- Hero Section --- -->
+  <header id="home" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal-left active">
+          <div class="badge">Premium Custom Car Styling</div>
+          <h1 class="hero-title">Bespoke car styling. <span>Elite craftsmanship.</span></h1>
+          <p class="hero-desc">Elevate your driving experience. Explore our family-owned showcase of exclusive hand-crafted carbon steering wheels, custom forged rims, and styling aerodynamic kits built for auto enthusiasts.</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">
+              Book a Slot
+              <svg class="btn-icon" viewBox="0 0 24 24">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#showcase" class="btn btn-secondary">Explore Showcase</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal-right active">
+          <div class="hero-glow-element glow-1"></div>
+          <div class="hero-glow-element glow-2"></div>
+          <div class="hero-image-wrapper">
+            <!-- Custom car interior visual asset -->
+            <img src="assets/hero-car.jpg" alt="Premium leather and carbon fiber customized car interior">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- --- Exclusive Showcase Section --- -->
+  <section id="showcase" class="section section-bg-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Exclusive Items</span>
+        <h2>The Car Plaza Gallery</h2>
+        <p>A curated look at our hand-crafted, high-end automotive styling items. These bespoke creations are showcased exclusively for display and custom orders.</p>
+      </div>
+
+      <div class="showcase-grid">
+        <!-- Item 1: Carbon Fiber Steering Wheel -->
+        <div class="showcase-card reveal">
+          <div class="showcase-img-container">
+            <img src="assets/logo.jpg" alt="Car Plaza Brand Logo Graphic">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(10,10,10,0.95)); display: flex; align-items: flex-end; padding: 1.5rem;">
+              <span class="showcase-badge">Bespoke Custom Build</span>
+            </div>
+          </div>
+          <div class="showcase-info">
+            <h3>Carbon steering wraps</h3>
+            <p>Hand-crafted carbon fiber and Alcantara steering wheel modifications. Features custom stitching, ergonomic D-cut shapes, and integrated led shift indicators.</p>
+            <div class="showcase-footer">
+              <span>Showcase Only</span>
+              <span style="color: var(--color-primary)">Inquire Fitment</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Forged Alloy Rims -->
+        <div class="showcase-card reveal" style="transition-delay: 0.1s;">
+          <div class="showcase-img-container">
+            <img src="assets/logo.jpg" alt="Car Plaza Brand Logo Graphic">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(10,10,10,0.95)); display: flex; align-items: flex-end; padding: 1.5rem;">
+              <span class="showcase-badge">Bespoke Monoblock</span>
+            </div>
+          </div>
+          <div class="showcase-info">
+            <h3>Forged monoblock wheels</h3>
+            <p>Exclusive forged alloys custom machined to clear high-performance brakes. Available in satin black, liquid silver, and hand-brushed custom finishes.</p>
+            <div class="showcase-footer">
+              <span>Showcase Only</span>
+              <span style="color: var(--color-primary)">Inquire Fitment</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Carbon Fiber Aero Kit -->
+        <div class="showcase-card reveal" style="transition-delay: 0.2s;">
+          <div class="showcase-img-container">
+            <img src="assets/logo.jpg" alt="Car Plaza Brand Logo Graphic">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(10,10,10,0.95)); display: flex; align-items: flex-end; padding: 1.5rem;">
+              <span class="showcase-badge">Aero Collection</span>
+            </div>
+          </div>
+          <div class="showcase-info">
+            <h3>Carbon fiber aero trims</h3>
+            <p>Premium pre-preg carbon fiber splitters, side skirt extensions, diffusers, and side mirror covers designed for precise OEM bumper clips integration.</p>
+            <div class="showcase-footer">
+              <span>Showcase Only</span>
+              <span style="color: var(--color-primary)">Inquire Fitment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Services Section --- -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Our Expertise</span>
+        <h2>Precision Styling Services</h2>
+        <p>We provide full-service customization support at our workshop, bringing absolute dedication to every vehicle modification.</p>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Service 1: Hand-Stitched Leather wraps -->
+        <div class="service-card reveal">
+          <div class="service-icon-container">
+            <!-- Steering Wheel SVG -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <circle cx="12" cy="12" r="2" />
+              <line x1="12" y1="2" x2="12" y2="10" />
+              <line x1="12" y1="14" x2="12" y2="22" />
+              <line x1="2" y1="12" x2="10" y2="12" />
+              <line x1="14" y1="12" x2="22" y2="12" />
+            </svg>
+          </div>
+          <h3>Custom Steering & Upholstery</h3>
+          <p>Re-wrap your steering wheel or full dashboard panels in premium Italian leather, Nappa hide, or Alcantara with matching stitching colors.</p>
+          <a href="#contact" class="service-link">
+            Book Fitting 
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+        
+        <!-- Service 2: Body Styling Kits -->
+        <div class="service-card reveal" style="transition-delay: 0.1s;">
+          <div class="service-icon-container">
+            <!-- Body Kit/Spoilers SVG -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 14h16" />
+              <path d="M2 10h20" />
+              <path d="M5 10v4" />
+              <path d="M19 10v4" />
+              <rect x="8" y="4" width="8" height="6" rx="1" />
+            </svg>
+          </div>
+          <h3>Body Styling & Aerodynamics</h3>
+          <p>Professional fitting of high-end splitters, spoilers, side skirts, and carbon fiber panels with flush factory alignment.</p>
+          <a href="#contact" class="service-link">
+            Book Fitting 
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+        
+        <!-- Service 3: Detailing & Calipers painting -->
+        <div class="service-card reveal" style="transition-delay: 0.2s;">
+          <div class="service-icon-container">
+            <!-- Detailing wheel SVG -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="8" />
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 2a10 10 0 0 0-10 10" />
+              <path d="M12 6V2" />
+              <path d="M12 22v-4" />
+              <path d="M2 12h4" />
+              <path d="M22 12h-4" />
+            </svg>
+          </div>
+          <h3>Alloy Refinishing & Calipers</h3>
+          <p>Custom electrostatic painting of brake calipers, styling wheel decals, stance adjustment spacers, and ceramic protective coating.</p>
+          <a href="#contact" class="service-link">
+            Book Fitting 
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- About Us Section --- -->
+  <section id="about" class="section section-bg-alt">
+    <div class="container">
+      <div class="about-grid">
+        
+        <!-- Stats Layout Column -->
+        <div class="about-visual reveal-left">
+          <div class="stat-card">
+            <div class="stat-number" data-target="15" data-suffix="+" data-decimals="0">0</div>
+            <div class="stat-label">Years of Experience</div>
+            <div class="stat-desc">Family-owned auto styling shop</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="100" data-suffix="%" data-decimals="0">0</div>
+            <div class="stat-label">Fitment Guarantee</div>
+            <div class="stat-desc">Accurate OEM-grade alignments</div>
+          </div>
+          <div class="stat-card featured">
+            <div class="stat-number" data-target="1200" data-suffix="+" data-decimals="0">0</div>
+            <div class="stat-label">Vehicles Upgraded</div>
+            <div class="stat-desc">Luxury, sports, and custom builds since 2003</div>
+          </div>
+        </div>
+        
+        <!-- Context Column -->
+        <div class="about-content reveal-right">
+          <span class="section-subtitle">Who We Are</span>
+          <h2 class="about-title">Crafting Automotive Masterpieces Since 2003</h2>
+          <p class="about-text">At Car Plaza, automotive styling is an art form. Established as a family business, our styling studio has spent over two decades modifying premium cars. We specialize in sourcing and custom-fitting exclusive parts, ensuring every stitching alignment and splitter angle is flawless.</p>
+          
+          <ul class="about-features">
+            <li>
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Premium Sourced Materials
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              OEM-Grade Precise Fitment
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Family-Owned Shop Pride
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Fully Customized Configurations
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Contact / Slot Booking Section --- -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Info Column -->
+        <div class="contact-info reveal-left">
+          <div>
+            <span class="section-subtitle">Book An Appointment</span>
+            <h2 class="contact-title">Book a styling slot at our studio</h2>
+            <p class="contact-desc">Ready to upgrade your car's road presence? Complete the slot booking inquiry or call our direct shop line below.</p>
+          </div>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <!-- Phone SVG -->
+                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <h4>Direct Shop Line</h4>
+                <p>+91 98963 33274</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <!-- Mail SVG -->
+                <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <h4>Email Support</h4>
+                <p>support@carplaza.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <!-- Map Pin SVG -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <h4>Visit Shop</h4>
+                <p>Shop No. 43, Main Market, Sector 14, Opposite Axis Bank, Sonipat, Haryana – 131001</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Stylized Google Map Container -->
+          <div class="map-container">
+            <!-- Embedded Google Map showing Car Plaza location -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3489.175407062402!2d77.02994350000001!3d28.9974578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db1bcfab52b9f%3A0x31bba1172c608ee0!2sCar%20Plaza!5e0!3m2!1sen!2sin!4v1719810000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        
+        <!-- Booking Form Column -->
+        <div class="contact-form-container reveal-right">
+          <form id="bookingForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name *</label>
+                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone Number *</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="vehicle" class="form-label">Vehicle Make & Model *</label>
+              <input type="text" id="vehicle" class="form-control" placeholder="e.g. BMW M4 2023" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="service" class="form-label">Upgrade Category *</label>
+                <select id="service" class="form-control" required>
+                  <option value="" disabled selected>Select service</option>
+                  <option value="Steering Wrap">Custom Steering Wrap</option>
+                  <option value="Body Styling">Aero & Carbon Kits</option>
+                  <option value="Alloy Painting">Alloy Refinishing & Calipers</option>
+                  <option value="Bespoke Upholstery">Full Cabin Upholstery</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="date" class="form-label">Preferred Fitting Date *</label>
+                <input type="date" id="date" class="form-control" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="notes" class="form-label">Special requests / Specific items description</label>
+              <textarea id="notes" class="form-control" placeholder="Describe the carbon trim weave or leather colors you are looking to source..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Book Slot Inquiry</button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Footer --- -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-col-info">
+          <a href="#" class="footer-logo">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L3 6v6c0 5.25 3.85 10.14 9 11 5.15-.86 9-5.75 9-11V6l-9-4zm5.5 13h-11c-.3 0-.5-.2-.5-.5v-1c0-.4.3-.8.7-.9l1.8-.4c.3-.1.5-.3.6-.6l.7-1.5c.2-.4.6-.6 1-.6h3.6c.4 0 .8.2 1 .6l.7 1.5c.1.3.3.5.6.6l1.8.4c.4.1.7.5.7.9v1c0 .3-.2.5-.5.5z" />
+              <circle cx="8.5" cy="14.5" r="1.25" fill="#dc2626" />
+              <circle cx="15.5" cy="14.5" r="1.25" fill="#dc2626" />
+            </svg>
+            Car<span>Plaza</span>
+          </a>
+          <p>Providing premium sourcing, handcrafted alignments, and high-end automotive aesthetics for car enthusiasts.</p>
+        </div>
+        
+        <div>
+          <h4>Showcase Items</h4>
+          <ul class="footer-links">
+            <li><a href="#showcase">Carbon Steering Wheels</a></li>
+            <li><a href="#showcase">Forged Monoblock Alloys</a></li>
+            <li><a href="#showcase">Carbon Aero splitters</a></li>
+            <li><a href="#showcase">Custom Caliper Paint</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4>Family Business</h4>
+          <ul class="footer-links">
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#about">Crafting Standards</a></li>
+            <li><a href="#contact">Direct Workshop Line</a></li>
+            <li><a href="#contact">Visit Studio Map</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col-newsletter">
+          <h4>Subscribe to Plaza Club</h4>
+          <p>Be the first to hear about newly arrived carbon builds and high-end styling showcases.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed to the Plaza Club successfully!'); this.reset();">
+            <input type="email" class="newsletter-input" placeholder="enter email address" required aria-label="Newsletter Email Input">
+            <button type="submit" class="btn">Join</button>
+          </form>
+        </div>
+        
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Car Plaza Styling. All rights reserved.</p>
+        <ul class="footer-legal">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Fitting Standards</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Local Script File -->
+  <script src="app.js"></script>
+</body>
+</html>
