@@ -1,0 +1,82 @@
+[
+  {
+    "id": "brand-blaupunkt",
+    "name": "Blaupunkt",
+    "slug": "blaupunkt",
+    "tagline": "German In-Car Entertainment, Dashcams & Fog Projectors",
+    "origin": "Germany",
+    "logoText": "BLAUPUNKT",
+    "logoSvg": "<svg viewBox=\"0 0 160 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"18\" cy=\"18\" r=\"14\" fill=\"#0066B2\"/><text x=\"40\" y=\"24\" fill=\"#ffffff\" font-family=\"Plus Jakarta Sans, sans-serif\" font-weight=\"800\" font-size=\"16\" letter-spacing=\"1.5\">BLAUPUNKT</text></svg>",
+    "productCount": 3
+  },
+  {
+    "id": "brand-3m",
+    "name": "3M",
+    "slug": "3m",
+    "tagline": "Automotive Detailing, Shampoos & Surface Protection",
+    "origin": "USA",
+    "logoText": "3M Auto",
+    "logoSvg": "<svg viewBox=\"0 0 120 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"36\" rx=\"4\" fill=\"#E60000\"/><text x=\"7\" y=\"25\" fill=\"#ffffff\" font-family=\"Arial, sans-serif\" font-weight=\"900\" font-size=\"20\">3M</text><text x=\"48\" y=\"24\" fill=\"#f3f4f6\" font-family=\"Plus Jakarta Sans, sans-serif\" font-weight=\"700\" font-size=\"14\">AUTO</text></svg>",
+    "productCount": 1
+  },
+  {
+    "id": "brand-involve",
+    "name": "Involve",
+    "slug": "involve",
+    "tagline": "India's #1 Luxury Organic Gel & Spray Fragrances",
+    "origin": "India",
+    "logoText": "INVOLVE",
+    "logoSvg": "<svg viewBox=\"0 0 140 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"16\" cy=\"18\" r=\"12\" fill=\"#10B981\"/><path d=\"M16 10 C18 14 22 17 22 20 C22 23 19 25 16 25 C13 25 10 23 10 20 C10 17 14 14 16 10 Z\" fill=\"#ffffff\"/><text x=\"36\" y=\"24\" fill=\"#ffffff\" font-family=\"Plus Jakarta Sans, sans-serif\" font-weight=\"800\" font-size=\"15\" letter-spacing=\"2\">INVOLVE</text></svg>",
+    "productCount": 2
+  },
+  {
+    "id": "brand-motul",
+    "name": "Motul",
+    "slug": "motul",
+    "tagline": "French High-Performance Lubricants & Brake Fluids",
+    "origin": "France",
+    "logoText": "MOTUL",
+    "logoSvg": "<svg viewBox=\"0 0 130 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"130\" height=\"36\" rx=\"6\" fill=\"#DC2626\"/><text x=\"16\" y=\"25\" fill=\"#ffffff\" font-family=\"Impact, Arial Black, sans-serif\" font-size=\"22\" letter-spacing=\"3\">MOTUL</text></svg>",
+    "productCount": 1
+  },
+  {
+    "id": "brand-turtle-wax",
+    "name": "Turtle Wax",
+    "slug": "turtle-wax",
+    "tagline": "Ceramic Sealants, Hybrid Solutions & Paint Care",
+    "origin": "USA",
+    "logoText": "Turtle Wax",
+    "logoSvg": "<svg viewBox=\"0 0 160 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"18\" cy=\"18\" r=\"14\" fill=\"#047857\"/><path d=\"M12 18 C12 14 24 14 24 18 C24 22 12 22 12 18 Z\" fill=\"#A7F3D0\"/><text x=\"38\" y=\"24\" fill=\"#ffffff\" font-family=\"Plus Jakarta Sans, sans-serif\" font-weight=\"800\" font-size=\"15\">TURTLE WAX</text></svg>",
+    "productCount": 1
+  },
+  {
+    "id": "brand-autoform",
+    "name": "Autoform",
+    "slug": "autoform",
+    "tagline": "Custom-Fit 7D Mats, Leatherette Seat Covers & Body Covers",
+    "origin": "India",
+    "logoText": "AUTOFORM",
+    "logoSvg": "<svg viewBox=\"0 0 150 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"6\" width=\"24\" height=\"24\" rx=\"4\" fill=\"#F59E0B\"/><path d=\"M16 10 L22 22 L10 22 Z\" fill=\"#000000\"/><text x=\"36\" y=\"24\" fill=\"#ffffff\" font-family=\"Plus Jakarta Sans, sans-serif\" font-weight=\"800\" font-size=\"15\" letter-spacing=\"1\">AUTOFORM</text></svg>",
+    "productCount": 3
+  },
+  {
+    "id": "brand-qubo",
+    "name": "Qubo",
+    "slug": "qubo",
+    "tagline": "Hero Electronix Smart GPS Dashcams & Tyre Inflators",
+    "origin": "India",
+    "logoText": "QUBO",
+    "logoSvg": "<svg viewBox=\"0 0 120 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"6\" width=\"24\" height=\"24\" rx=\"6\" fill=\"#3B82F6\"/><text x=\"10\" y=\"24\" fill=\"#ffffff\" font-family=\"Plus Jakarta Sans, sans-serif\" font-weight=\"900\" font-size=\"16\">Q</text><text x=\"36\" y=\"24\" fill=\"#ffffff\" font-family=\"Plus Jakarta Sans, sans-serif\" font-weight=\"800\" font-size=\"16\" letter-spacing=\"2\">QUBO</text></svg>",
+    "productCount": 2
+  },
+  {
+    "id": "brand-autobahn",
+    "name": "Autobahn",
+    "slug": "autobahn",
+    "tagline": "Precision LED Headlights & 800 GSM Detailing Towels",
+    "origin": "Germany/India",
+    "logoText": "AUTOBAHN",
+    "logoSvg": "<svg viewBox=\"0 0 150 36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6 26 L16 8 L26 26 Z\" fill=\"#E11D48\"/><text x=\"36\" y=\"24\" fill=\"#ffffff\" font-family=\"Plus Jakarta Sans, sans-serif\" font-weight=\"800\" font-size=\"15\" letter-spacing=\"1\">AUTOBAHN</text></svg>",
+    "productCount": 2
+  }
+]

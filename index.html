@@ -3,43 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Car Plaza - Premium custom automotive styling, accessories, and bespoke upholstery upgrades. Family-owned precision craftsmanship since 2003.">
-  <title>Car Plaza | Bespoke Car Accessories & Custom Styling Studio</title>
+  <meta name="description" content="Car Plaza - Premium automotive accessories, genuine NHONE catalog products, Blaupunkt, 3M, Involve, Motul, Autoform, Qubo, and custom styling. Family-owned since 2003 in Sonipat, Haryana.">
+  <title>Car Plaza | Automotive Accessories, Genuine NHONE Catalog & Custom Styling</title>
   
   <!-- Google Fonts - Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   
   <!-- Local Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- --- Header / Navbar --- -->
+  <!-- --- Top Announcement Bar --- -->
+  <aside class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-left">
+        <span class="top-badge">NHONE CATALOG</span>
+        <span>Official Dealer for <strong>Blaupunkt, Involve, 3M, Motul, Autoform, Turtle Wax & Qubo</strong></span>
+      </div>
+      <div class="top-bar-right">
+        <span>📍 Sector 14, Sonipat, Haryana</span>
+        <a href="https://wa.me/919896333274?text=Hi%20CarPlaza!%20I%20have%20an%20inquiry%20regarding%20car%20accessories." target="_blank" rel="noopener" class="top-wa-link">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.75 7.85 19L7.55 18.82L4.44 19.64L5.27 16.6L5.07 16.29C4.24 14.98 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.68 12.05 3.68C14.25 3.68 16.31 4.54 17.87 6.1C19.42 7.66 20.28 9.72 20.28 11.92C20.28 16.46 16.59 20.15 12.05 20.15Z"/></svg>
+          WhatsApp: <strong>+91 98963 33274</strong>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- --- Header / Navbar (No Cart System) --- -->
   <nav class="navbar">
     <div class="container">
       <a href="#home" class="logo">
         <!-- Sleek Sports Car Shield SVG Logo -->
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <!-- Car silhouette inside a shield border -->
           <path d="M12 2L3 6v6c0 5.25 3.85 10.14 9 11 5.15-.86 9-5.75 9-11V6l-9-4zm5.5 13h-11c-.3 0-.5-.2-.5-.5v-1c0-.4.3-.8.7-.9l1.8-.4c.3-.1.5-.3.6-.6l.7-1.5c.2-.4.6-.6 1-.6h3.6c.4 0 .8.2 1 .6l.7 1.5c.1.3.3.5.6.6l1.8.4c.4.1.7.5.7.9v1c0 .3-.2.5-.5.5z" />
           <circle cx="8.5" cy="14.5" r="1.25" fill="#dc2626" />
           <circle cx="15.5" cy="14.5" r="1.25" fill="#dc2626" />
         </svg>
-        Car<span>Plaza</span>
+        <div class="logo-text-group">
+          <span class="logo-title">Car<span>Plaza</span></span>
+          <span class="logo-sub">ACCESSORIES & STYLING</span>
+        </div>
       </a>
       
       <ul class="nav-links">
         <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#brands">Brands</a></li>
+        <li><a href="#catalog">Catalog</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       
       <div class="nav-cta">
-        <a href="#contact" class="btn btn-secondary" style="padding: 0.6rem 1.25rem; font-size: 0.9rem;">Book a Slot</a>
+        <a href="https://wa.me/919896333274?text=Hi%20CarPlaza!%20I%20want%20to%20enquire%20about%20car%20accessories." target="_blank" rel="noopener" class="btn btn-wa-nav" aria-label="Order on WhatsApp">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.75 7.85 19L7.55 18.82L4.44 19.64L5.27 16.6L5.07 16.29C4.24 14.98 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.68 12.05 3.68C14.25 3.68 16.31 4.54 17.87 6.1C19.42 7.66 20.28 9.72 20.28 11.92C20.28 16.46 16.59 20.15 12.05 20.15Z"/></svg>
+          <span>Order on WhatsApp</span>
+        </a>
+        <a href="#contact" class="btn btn-secondary" style="padding: 0.6rem 1.25rem; font-size: 0.9rem;">Book Slot</a>
       </div>
       
       <button class="hamburger" aria-label="Toggle Navigation Menu">
@@ -55,95 +79,154 @@
     <div class="container">
       <div class="hero-grid">
         <div class="hero-content reveal-left active">
-          <div class="badge">Premium Custom Car Styling</div>
-          <h1 class="hero-title">Bespoke car styling. <span>Elite craftsmanship.</span></h1>
-          <p class="hero-desc">Elevate your driving experience. Explore our family-owned showcase of exclusive hand-crafted carbon steering wheels, custom forged rims, and styling aerodynamic kits built for auto enthusiasts.</p>
+          <div class="badge">NHONE Automotive Catalog & Upgrades</div>
+          <h1 class="hero-title">Upgrade your drive with <span>genuine automotive brands</span></h1>
+          <p class="hero-desc">Discover our comprehensive catalog replicating NHONE.in's top brand lineup: Blaupunkt, Involve, Motul, 3M, Autoform, Turtle Wax, Qubo & Autobahn. Order directly via WhatsApp or book a professional fitting slot at our Sonipat studio.</p>
+          
+          <div class="hero-search-box">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="heroSearchInput" placeholder="Search mats, dashcams, LED bulbs, ceramic coatings, perfumes..." aria-label="Search catalog products">
+            <button class="btn btn-primary" id="heroSearchBtn">Search</button>
+          </div>
+
           <div class="hero-btns">
-            <a href="#contact" class="btn btn-primary">
-              Book a Slot
+            <a href="#catalog" class="btn btn-primary">
+              Browse NHONE Catalog
               <svg class="btn-icon" viewBox="0 0 24 24">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
-            <a href="#showcase" class="btn btn-secondary">Explore Showcase</a>
+            <a href="#brands" class="btn btn-secondary">Featured Brands</a>
+          </div>
+
+          <div class="hero-trust-bar">
+            <div class="trust-item">
+              <span class="trust-num">100%</span>
+              <span class="trust-lbl">Genuine Brands</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-num">Direct</span>
+              <span class="trust-lbl">WhatsApp Orders</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-num">Since 2003</span>
+              <span class="trust-lbl">Expert Studio</span>
+            </div>
           </div>
         </div>
+
         <div class="hero-visual reveal-right active">
           <div class="hero-glow-element glow-1"></div>
           <div class="hero-glow-element glow-2"></div>
           <div class="hero-image-wrapper">
-            <!-- Custom car interior visual asset -->
-            <img src="assets/hero-car.jpg" alt="Premium leather and carbon fiber customized car interior">
+            <img src="assets/hero-car.jpg" alt="Premium custom cockpit car interior with high-end accessories">
+            <div class="hero-card-overlay">
+              <span class="overlay-brand">NHONE BRAND PARTNER</span>
+              <span class="overlay-title">Blaupunkt • 3M • Involve • Autoform</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- --- Exclusive Showcase Section --- -->
-  <section id="showcase" class="section section-bg-alt">
+  <!-- --- Brand Showcase Bar Section --- -->
+  <section id="brands" class="section brand-showcase-section">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-subtitle">Exclusive Items</span>
-        <h2>The Car Plaza Gallery</h2>
-        <p>A curated look at our hand-crafted, high-end automotive styling items. These bespoke creations are showcased exclusively for display and custom orders.</p>
+        <span class="section-subtitle">Official Automotive Lineup</span>
+        <h2>Top Brands from NHONE</h2>
+        <p>Click on any brand logo to instantly filter our live product catalog.</p>
       </div>
 
-      <div class="showcase-grid">
-        <!-- Item 1: Carbon Fiber Steering Wheel -->
-        <div class="showcase-card reveal">
-          <div class="showcase-img-container">
-            <img src="assets/logo.jpg" alt="Car Plaza Brand Logo Graphic">
-            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(10,10,10,0.95)); display: flex; align-items: flex-end; padding: 1.5rem;">
-              <span class="showcase-badge">Bespoke Custom Build</span>
-            </div>
+      <!-- Dynamic Brand Bar Container -->
+      <div class="brands-grid" id="brandsContainer">
+        <!-- Rendered dynamically by app.js from /api/brands -->
+        <div class="loading-spinner">Loading featured brands...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- NHONE Catalog Section --- -->
+  <section id="catalog" class="section section-bg-alt catalog-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">NHONE.in Product Catalog</span>
+        <h2>Explore Genuine Accessories</h2>
+        <p>No carts, no complicated checkouts. Direct product specifications with instant WhatsApp booking and nationwide delivery inquiry.</p>
+      </div>
+
+      <!-- Filter Controls Container -->
+      <div class="catalog-controls reveal">
+        <!-- Category Filter Pills -->
+        <div class="category-tabs" id="categoryTabs" role="tablist">
+          <button class="cat-pill active" data-category="all">All Products</button>
+          <button class="cat-pill" data-category="Interior Accessories">Interior Accessories</button>
+          <button class="cat-pill" data-category="Exterior & Care">Exterior & Care</button>
+          <button class="cat-pill" data-category="Lighting & Electronics">Lighting & Electronics</button>
+          <button class="cat-pill" data-category="Perfumes & Fragrances">Perfumes & Fragrances</button>
+        </div>
+
+        <!-- Filter Dropdowns & Search Row -->
+        <div class="filter-toolbar">
+          <div class="search-field-wrapper">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="catalogSearchInput" placeholder="Filter by keyword (e.g., Thar, 7D, LED, Ceramiс)..." aria-label="Search filter">
+            <button id="clearSearchBtn" class="clear-search-btn" title="Clear search" style="display:none;">✕</button>
           </div>
-          <div class="showcase-info">
-            <h3>Carbon steering wraps</h3>
-            <p>Hand-crafted carbon fiber and Alcantara steering wheel modifications. Features custom stitching, ergonomic D-cut shapes, and integrated led shift indicators.</p>
-            <div class="showcase-footer">
-              <span>Showcase Only</span>
-              <span style="color: var(--color-primary)">Inquire Fitment</span>
+
+          <div class="filter-dropdowns">
+            <div class="select-wrapper">
+              <label for="brandFilterSelect" class="visually-hidden">Filter by Brand</label>
+              <select id="brandFilterSelect" class="filter-select">
+                <option value="all">All Brands</option>
+                <!-- Populated dynamically -->
+              </select>
+            </div>
+
+            <div class="select-wrapper">
+              <label for="carModelFilterSelect" class="visually-hidden">Filter by Car Model</label>
+              <select id="carModelFilterSelect" class="filter-select">
+                <option value="all">All Vehicle Fits</option>
+                <option value="Universal">Universal Fit</option>
+                <option value="Mahindra Thar">Mahindra Thar</option>
+                <option value="Hyundai Creta">Hyundai Creta</option>
+                <option value="Maruti Swift">Maruti Swift</option>
+              </select>
+            </div>
+
+            <div class="select-wrapper">
+              <label for="sortFilterSelect" class="visually-hidden">Sort by</label>
+              <select id="sortFilterSelect" class="filter-select">
+                <option value="featured">Sort: Featured</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="rating">Customer Rating</option>
+                <option value="discount">Biggest Discount</option>
+              </select>
             </div>
           </div>
         </div>
 
-        <!-- Item 2: Forged Alloy Rims -->
-        <div class="showcase-card reveal" style="transition-delay: 0.1s;">
-          <div class="showcase-img-container">
-            <img src="assets/logo.jpg" alt="Car Plaza Brand Logo Graphic">
-            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(10,10,10,0.95)); display: flex; align-items: flex-end; padding: 1.5rem;">
-              <span class="showcase-badge">Bespoke Monoblock</span>
-            </div>
-          </div>
-          <div class="showcase-info">
-            <h3>Forged monoblock wheels</h3>
-            <p>Exclusive forged alloys custom machined to clear high-performance brakes. Available in satin black, liquid silver, and hand-brushed custom finishes.</p>
-            <div class="showcase-footer">
-              <span>Showcase Only</span>
-              <span style="color: var(--color-primary)">Inquire Fitment</span>
-            </div>
-          </div>
+        <!-- Active Filter Indicator Bar -->
+        <div class="active-filters-bar" id="activeFiltersBar" style="display: none;">
+          <span class="active-filters-label">Active Filters:</span>
+          <div class="active-filter-tags" id="activeFilterTags"></div>
+          <button id="resetFiltersBtn" class="reset-filters-btn">Reset All</button>
         </div>
 
-        <!-- Item 3: Carbon Fiber Aero Kit -->
-        <div class="showcase-card reveal" style="transition-delay: 0.2s;">
-          <div class="showcase-img-container">
-            <img src="assets/logo.jpg" alt="Car Plaza Brand Logo Graphic">
-            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, rgba(10,10,10,0.95)); display: flex; align-items: flex-end; padding: 1.5rem;">
-              <span class="showcase-badge">Aero Collection</span>
-            </div>
-          </div>
-          <div class="showcase-info">
-            <h3>Carbon fiber aero trims</h3>
-            <p>Premium pre-preg carbon fiber splitters, side skirt extensions, diffusers, and side mirror covers designed for precise OEM bumper clips integration.</p>
-            <div class="showcase-footer">
-              <span>Showcase Only</span>
-              <span style="color: var(--color-primary)">Inquire Fitment</span>
-            </div>
-          </div>
+        <!-- Results Counter -->
+        <div class="results-meta">
+          <span id="resultsCountText">Showing 15 products</span>
+          <span class="results-note">WhatsApp ordering enabled for all catalog items</span>
         </div>
+      </div>
+
+      <!-- Dynamic Product Grid -->
+      <div class="catalog-grid" id="productsGrid">
+        <!-- Rendered dynamically by app.js from /api/products -->
+        <div class="loading-spinner">Loading NHONE catalog items...</div>
       </div>
     </div>
   </section>
@@ -152,16 +235,15 @@
   <section id="services" class="section">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-subtitle">Our Expertise</span>
-        <h2>Precision Styling Services</h2>
-        <p>We provide full-service customization support at our workshop, bringing absolute dedication to every vehicle modification.</p>
+        <span class="section-subtitle">Workshop Installation</span>
+        <h2>Precision Fitting & Styling Services</h2>
+        <p>Purchasing catalog items? Have them professionally installed by our master technicians at our Sonipat studio.</p>
       </div>
       
       <div class="services-grid">
         <!-- Service 1: Hand-Stitched Leather wraps -->
         <div class="service-card reveal">
           <div class="service-icon-container">
-            <!-- Steering Wheel SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="10" />
               <circle cx="12" cy="12" r="2" />
@@ -172,49 +254,37 @@
             </svg>
           </div>
           <h3>Custom Steering & Upholstery</h3>
-          <p>Re-wrap your steering wheel or full dashboard panels in premium Italian leather, Nappa hide, or Alcantara with matching stitching colors.</p>
+          <p>Professional installation of Autoform leatherette seat covers, hand-stitched steering wraps, and customized padding tailored to your vehicle.</p>
           <a href="#contact" class="service-link">
             Book Fitting 
             <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </a>
         </div>
         
-        <!-- Service 2: Body Styling Kits -->
+        <!-- Service 2: Electronics & Dashcam Wiring -->
         <div class="service-card reveal" style="transition-delay: 0.1s;">
           <div class="service-icon-container">
-            <!-- Body Kit/Spoilers SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M4 14h16" />
-              <path d="M2 10h20" />
-              <path d="M5 10v4" />
-              <path d="M19 10v4" />
-              <rect x="8" y="4" width="8" height="6" rx="1" />
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
             </svg>
           </div>
-          <h3>Body Styling & Aerodynamics</h3>
-          <p>Professional fitting of high-end splitters, spoilers, side skirts, and carbon fiber panels with flush factory alignment.</p>
+          <h3>Concealed Dashcam & LED Wiring</h3>
+          <p>Zero wire-cutting OEM fuse-tap installations for Qubo GPS dashcams, Blaupunkt ambient RGB fiber optics, and Autobahn F100 LED headlight retrofits.</p>
           <a href="#contact" class="service-link">
             Book Fitting 
             <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </a>
         </div>
         
-        <!-- Service 3: Detailing & Calipers painting -->
+        <!-- Service 3: Detailing & Ceramic Coatings -->
         <div class="service-card reveal" style="transition-delay: 0.2s;">
           <div class="service-icon-container">
-            <!-- Detailing wheel SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="8" />
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 2a10 10 0 0 0-10 10" />
-              <path d="M12 6V2" />
-              <path d="M12 22v-4" />
-              <path d="M2 12h4" />
-              <path d="M22 12h-4" />
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
           </div>
-          <h3>Alloy Refinishing & Calipers</h3>
-          <p>Custom electrostatic painting of brake calipers, styling wheel decals, stance adjustment spacers, and ceramic protective coating.</p>
+          <h3>Turtle Wax & 3M Detailing</h3>
+          <p>Machine paint correction, 3M snow foam decontamination, and multi-layer Turtle Wax Ceramic SiO2 hydrophobic coatings for deep reflective gloss.</p>
           <a href="#contact" class="service-link">
             Book Fitting 
             <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -232,14 +302,14 @@
         <!-- Stats Layout Column -->
         <div class="about-visual reveal-left">
           <div class="stat-card">
-            <div class="stat-number" data-target="15" data-suffix="+" data-decimals="0">0</div>
-            <div class="stat-label">Years of Experience</div>
-            <div class="stat-desc">Family-owned auto styling shop</div>
+            <div class="stat-number" data-target="21" data-suffix="+" data-decimals="0">0</div>
+            <div class="stat-label">Years of Craftsmanship</div>
+            <div class="stat-desc">Family-owned automotive studio in Sonipat</div>
           </div>
           <div class="stat-card">
             <div class="stat-number" data-target="100" data-suffix="%" data-decimals="0">0</div>
-            <div class="stat-label">Fitment Guarantee</div>
-            <div class="stat-desc">Accurate OEM-grade alignments</div>
+            <div class="stat-label">Genuine Guarantee</div>
+            <div class="stat-desc">Authentic brands sourced direct from manufacturers</div>
           </div>
           <div class="stat-card featured">
             <div class="stat-number" data-target="1200" data-suffix="+" data-decimals="0">0</div>
@@ -251,25 +321,25 @@
         <!-- Context Column -->
         <div class="about-content reveal-right">
           <span class="section-subtitle">Who We Are</span>
-          <h2 class="about-title">Crafting Automotive Masterpieces Since 2003</h2>
-          <p class="about-text">At Car Plaza, automotive styling is an art form. Established as a family business, our styling studio has spent over two decades modifying premium cars. We specialize in sourcing and custom-fitting exclusive parts, ensuring every stitching alignment and splitter angle is flawless.</p>
+          <h2 class="about-title">Crafting Automotive Excellence Since 2003</h2>
+          <p class="about-text">At Car Plaza, automotive enhancement is an art form. Established in 2003 as a family-owned venture in Sonipat, Haryana, we bring over two decades of hands-on expertise to every upgrade. Partnered with leading automotive brands like Blaupunkt, Involve, Motul, 3M, and Autoform, we ensure your vehicle receives 100% genuine parts and immaculate fitment.</p>
           
           <ul class="about-features">
             <li>
               <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              Premium Sourced Materials
+              100% Genuine NHONE Brands
             </li>
             <li>
               <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              OEM-Grade Precise Fitment
+              Direct WhatsApp Support
             </li>
             <li>
               <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              Family-Owned Shop Pride
+              Zero Wire-Cutting Fitment
             </li>
             <li>
               <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              Fully Customized Configurations
+              Manufacturer Warranty Covered
             </li>
           </ul>
         </div>
@@ -285,26 +355,24 @@
         <!-- Info Column -->
         <div class="contact-info reveal-left">
           <div>
-            <span class="section-subtitle">Book An Appointment</span>
-            <h2 class="contact-title">Book a styling slot at our studio</h2>
-            <p class="contact-desc">Ready to upgrade your car's road presence? Complete the slot booking inquiry or call our direct shop line below.</p>
+            <span class="section-subtitle">Get In Touch</span>
+            <h2 class="contact-title">Visit Car Plaza or Book a Fitting Slot</h2>
+            <p class="contact-desc">Have questions about compatibility, custom orders, or want to pick up items directly? Call or WhatsApp our direct line below.</p>
           </div>
           
           <div class="contact-details">
             <div class="contact-item">
               <div class="contact-icon">
-                <!-- Phone SVG -->
                 <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
               </div>
               <div>
-                <h4>Direct Shop Line</h4>
-                <p>+91 98963 33274</p>
+                <h4>Direct Shop Line & WhatsApp</h4>
+                <p><a href="tel:+919896333274" class="phone-link">+91 98963 33274</a></p>
               </div>
             </div>
             
             <div class="contact-item">
               <div class="contact-icon">
-                <!-- Mail SVG -->
                 <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
               </div>
               <div>
@@ -315,11 +383,10 @@
 
             <div class="contact-item">
               <div class="contact-icon">
-                <!-- Map Pin SVG -->
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
               </div>
               <div>
-                <h4>Visit Shop</h4>
+                <h4>Visit Studio</h4>
                 <p>Shop No. 43, Main Market, Sector 14, Opposite Axis Bank, Sonipat, Haryana – 131001</p>
               </div>
             </div>
@@ -327,14 +394,16 @@
           
           <!-- Stylized Google Map Container -->
           <div class="map-container">
-            <!-- Embedded Google Map showing Car Plaza location -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3489.175407062402!2d77.02994350000001!3d28.9974578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db1bcfab52b9f%3A0x31bba1172c608ee0!2sCar%20Plaza!5e0!3m2!1sen!2sin!4v1719810000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3489.175407062402!2d77.02994350000001!3d28.9974578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db1bcfab52b9f%3A0x31bba1172c608ee0!2sCar%20Plaza!5e0!3m2!1sen!2sin!4v1719810000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Car Plaza Google Map Location"></iframe>
           </div>
         </div>
         
         <!-- Booking Form Column -->
         <div class="contact-form-container reveal-right">
           <form id="bookingForm">
+            <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem; color: var(--color-text-main);">Reserve a Fitting Appointment</h3>
+            <p style="font-size: 0.9rem; margin-bottom: 1.5rem; color: var(--color-text-muted);">Fill in your vehicle details to reserve your preferred installation slot.</p>
+
             <div class="form-row">
               <div class="form-group">
                 <label for="name" class="form-label">Full Name *</label>
@@ -342,40 +411,40 @@
               </div>
               
               <div class="form-group">
-                <label for="phone" class="form-label">Phone Number *</label>
-                <input type="tel" id="phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+                <label for="phone" class="form-label">WhatsApp / Phone Number *</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+91 98963 33274" required>
               </div>
             </div>
             
             <div class="form-group">
               <label for="vehicle" class="form-label">Vehicle Make & Model *</label>
-              <input type="text" id="vehicle" class="form-control" placeholder="e.g. BMW M4 2023" required>
+              <input type="text" id="vehicle" class="form-control" placeholder="e.g. Mahindra Thar / Hyundai Creta / Swift" required>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label for="service" class="form-label">Upgrade Category *</label>
+                <label for="service" class="form-label">Category of Upgrade *</label>
                 <select id="service" class="form-control" required>
                   <option value="" disabled selected>Select service</option>
-                  <option value="Steering Wrap">Custom Steering Wrap</option>
-                  <option value="Body Styling">Aero & Carbon Kits</option>
-                  <option value="Alloy Painting">Alloy Refinishing & Calipers</option>
-                  <option value="Bespoke Upholstery">Full Cabin Upholstery</option>
+                  <option value="Interior Accessories">Interior Accessories (Mats / Seat Covers / Ambient)</option>
+                  <option value="Lighting & Electronics">Lighting & Electronics (LED / Dashcam / Projectors)</option>
+                  <option value="Exterior Detailing">Exterior Detailing & Ceramic Coating</option>
+                  <option value="General Fitting">General Accessory Fitting & Consultation</option>
                 </select>
               </div>
               
               <div class="form-group">
-                <label for="date" class="form-label">Preferred Fitting Date *</label>
+                <label for="date" class="form-label">Preferred Date *</label>
                 <input type="date" id="date" class="form-control" required>
               </div>
             </div>
             
             <div class="form-group">
-              <label for="notes" class="form-label">Special requests / Specific items description</label>
-              <textarea id="notes" class="form-control" placeholder="Describe the carbon trim weave or leather colors you are looking to source..."></textarea>
+              <label for="notes" class="form-label">Items to Install / Special Instructions</label>
+              <textarea id="notes" class="form-control" placeholder="Mention catalog items or custom modifications you would like our team to prepare..."></textarea>
             </div>
             
-            <button type="submit" class="btn btn-primary" style="width: 100%;">Book Slot Inquiry</button>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Booking Request</button>
             <div id="formStatus" class="form-status"></div>
           </form>
         </div>
@@ -383,6 +452,70 @@
       </div>
     </div>
   </section>
+
+  <!-- --- Product Specification Quick View Modal --- -->
+  <div id="productModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close product details">✕</button>
+      
+      <div class="modal-grid">
+        <div class="modal-image-col">
+          <div class="modal-img-wrap">
+            <img id="modalProductImage" src="" alt="Product view">
+            <span class="modal-discount-tag" id="modalDiscountTag">-30% OFF</span>
+          </div>
+          <div class="modal-brand-badge" id="modalBrandBadge">
+            <span id="modalBrandOrigin">German Technology</span>
+          </div>
+        </div>
+
+        <div class="modal-info-col">
+          <div class="modal-header-group">
+            <span class="modal-category" id="modalCategory">Category</span>
+            <h2 class="modal-title" id="modalTitle">Product Title</h2>
+            <div class="modal-rating-row">
+              <span class="stars" id="modalStars">★★★★★</span>
+              <span class="rating-text" id="modalRatingText">4.8 (142 reviews)</span>
+              <span class="modal-stock-badge">In Stock</span>
+            </div>
+          </div>
+
+          <div class="modal-price-box">
+            <div class="price-current" id="modalPrice">₹3,499</div>
+            <div class="price-strike" id="modalOriginalPrice">₹4,999</div>
+            <div class="price-save" id="modalSavings">Save ₹1,500</div>
+          </div>
+
+          <div class="modal-compatibility-box">
+            <span class="comp-icon">🚗</span>
+            <div>
+              <strong>Vehicle Fitment:</strong>
+              <span id="modalCompatibility">Universal Fit</span>
+            </div>
+          </div>
+
+          <p class="modal-description" id="modalDescription">Description</p>
+
+          <!-- Specifications Table -->
+          <div class="modal-specs-wrap">
+            <h4>Technical Specifications</h4>
+            <div class="specs-table" id="modalSpecsTable">
+              <!-- Key Value pairs rendered by app.js -->
+            </div>
+          </div>
+
+          <!-- Actions: No Cart! Direct WhatsApp & Booking Slot -->
+          <div class="modal-actions">
+            <a href="#" id="modalWhatsAppBtn" target="_blank" rel="noopener" class="btn btn-wa-order">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.75 7.85 19L7.55 18.82L4.44 19.64L5.27 16.6L5.07 16.29C4.24 14.98 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.68 12.05 3.68C14.25 3.68 16.31 4.54 17.87 6.1C19.42 7.66 20.28 9.72 20.28 11.92C20.28 16.46 16.59 20.15 12.05 20.15Z"/></svg>
+              Order / Enquire on WhatsApp
+            </a>
+            <button id="modalBookSlotBtn" class="btn btn-secondary">Book Fitting Slot</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- --- Footer --- -->
   <footer class="footer">
@@ -398,34 +531,41 @@
             </svg>
             Car<span>Plaza</span>
           </a>
-          <p>Providing premium sourcing, handcrafted alignments, and high-end automotive aesthetics for car enthusiasts.</p>
+          <p>Official dealer & installation studio for genuine NHONE automotive brands. Bringing over two decades of custom precision and certified fitting since 2003.</p>
+          <div class="footer-contacts-quick">
+            <p><strong>WhatsApp:</strong> +91 98963 33274</p>
+            <p><strong>Address:</strong> Sector 14, Sonipat, Haryana – 131001</p>
+          </div>
         </div>
         
         <div>
-          <h4>Showcase Items</h4>
-          <ul class="footer-links">
-            <li><a href="#showcase">Carbon Steering Wheels</a></li>
-            <li><a href="#showcase">Forged Monoblock Alloys</a></li>
-            <li><a href="#showcase">Carbon Aero splitters</a></li>
-            <li><a href="#showcase">Custom Caliper Paint</a></li>
+          <h4>NHONE Brands</h4>
+          <ul class="footer-links" id="footerBrandsList">
+            <li><a href="#catalog" data-brand="Blaupunkt">Blaupunkt Audio & Dashcams</a></li>
+            <li><a href="#catalog" data-brand="Involve">Involve Organic Fragrances</a></li>
+            <li><a href="#catalog" data-brand="Autoform">Autoform 7D Mats & Covers</a></li>
+            <li><a href="#catalog" data-brand="Turtle Wax">Turtle Wax Ceramic Solutions</a></li>
+            <li><a href="#catalog" data-brand="3M">3M Car Shampoos & Care</a></li>
+            <li><a href="#catalog" data-brand="Qubo">Qubo GPS Dashcams & Inflators</a></li>
           </ul>
         </div>
         
         <div>
-          <h4>Family Business</h4>
+          <h4>Categories</h4>
           <ul class="footer-links">
-            <li><a href="#about">Our Story</a></li>
-            <li><a href="#about">Crafting Standards</a></li>
-            <li><a href="#contact">Direct Workshop Line</a></li>
-            <li><a href="#contact">Visit Studio Map</a></li>
+            <li><a href="#catalog" data-category="Interior Accessories">Interior Accessories</a></li>
+            <li><a href="#catalog" data-category="Exterior & Care">Exterior & Detailing</a></li>
+            <li><a href="#catalog" data-category="Lighting & Electronics">Lighting & Electronics</a></li>
+            <li><a href="#catalog" data-category="Perfumes & Fragrances">Perfumes & Fragrances</a></li>
+            <li><a href="#services">Workshop Installation</a></li>
           </ul>
         </div>
         
         <div class="footer-col-newsletter">
-          <h4>Subscribe to Plaza Club</h4>
-          <p>Be the first to hear about newly arrived carbon builds and high-end styling showcases.</p>
-          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed to the Plaza Club successfully!'); this.reset();">
-            <input type="email" class="newsletter-input" placeholder="enter email address" required aria-label="Newsletter Email Input">
+          <h4>Plaza Club Updates</h4>
+          <p>Stay informed on newly arrived NHONE catalog items and exclusive custom build releases.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for joining Plaza Club! We will send catalog updates to your email.'); this.reset();">
+            <input type="email" class="newsletter-input" placeholder="Enter your email" required aria-label="Newsletter Email Input">
             <button type="submit" class="btn">Join</button>
           </form>
         </div>
@@ -433,11 +573,11 @@
       </div>
       
       <div class="footer-bottom">
-        <p>&copy; 2026 Car Plaza Styling. All rights reserved.</p>
+        <p>&copy; 2026 Car Plaza Automotive Styling. All rights reserved. Registered workshop in Sonipat, Haryana.</p>
         <ul class="footer-legal">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Fitting Standards</a></li>
+          <li><a href="#">Genuine Product Policy</a></li>
+          <li><a href="#">Fitting Warranty</a></li>
+          <li><a href="#">WhatsApp Order Terms</a></li>
         </ul>
       </div>
     </div>

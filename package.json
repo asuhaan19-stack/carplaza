@@ -1,0 +1,23 @@
+{
+  "name": "carplaza-catalog",
+  "version": "2.0.0",
+  "description": "CarPlaza Automotive Catalog & Accessories Studio (NHONE.in Architecture)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "car-accessories",
+    "nhone",
+    "automotive",
+    "blaupunkt",
+    "3m",
+    "involve",
+    "motul",
+    "qubo"
+  ],
+  "author": "CarPlaza",
+  "license": "MIT"
+}
